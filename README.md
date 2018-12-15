@@ -44,6 +44,7 @@ Download the "train1.txt", "3layer_500.cu", "4layer_500.cu".
 In order to input the trainning data from the file, you need to change the "train1.txt" file path in code manually. This program will output one result .txt file, and you need to change the output file path to you computer.
 
 Then input command below:
+
 nvcc -arch=sm_50 -std=c++11 -rdc=true -lcudadevrt "train1.txt"path -o ./4L_500
 
 ./4L_500
