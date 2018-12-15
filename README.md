@@ -37,7 +37,7 @@ First, you have to change the "train.txt" file path which should be the path in 
 Second, this program will generate a txt file including the results, so you have to change the result file path manually wherever you want.
 
 # Running GPU experiment
-This part requires CUDA 10.0, please implement it first.
+First you need to make sure your computer has built-in NVIDIA GPU. Then a CUDA version of at least 9.2 should be installed which can be found in the website https://developer.nvidia.com/cuda-downloads.
 
 Download the "train1.txt", "3layer_500.cu", "4layer_500.cu".
 
@@ -45,4 +45,5 @@ In order to input the trainning data from the file, you need to change the "trai
 
 Then input command below:
 nvcc -arch=sm_50 -std=c++11 -rdc=true -lcudadevrt "train1.txt"path -o ./4L_500
+
 ./4L_500
