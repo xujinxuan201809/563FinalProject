@@ -4,15 +4,19 @@ As for the data, we use the 42'000 Handwritten Images as our training data from 
 And each neural network has 500 units per hidden layer.
 
 CPU_3LAYER_500.cpp
+
 This file includes code of three layer neural network build on CPU.
 
 CPU_4LAYER_500.cpp
+
 This file includes code of four layer neural network build on CPU.
 
 3layer_500.cu
+
 This file includes code of three layer neural network build on GPU.
 
 4layer_500.cu
+
 This file includes code of four layer neural network build on CPU.
 
 
